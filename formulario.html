@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de pessoas</title>
+</head>
+
+<!--Todo o corpo do nosso formulário HTML-->
+
+<body>
+
+    <div>
+        <h1 id="titulo">
+            Cadastro de pessoas
+        </h1>
+        <h2> Preencha todos os campos necessários!</h2>
+    </div>
+
+    <div>
+
+        <form>
+
+        <fieldset>
+            <legend>Todos os seus dados estarão aqui preenchidos: </legend>
+           
+                <p>Nome completo: <input type="text" name="usuario" required="required" title="Coloque seu nome aqui" placeholder="Seu nome completo"/>
+                </p>
+                <p>Seu email:<input type="email" name="email" required="required" title="Coloque seu email" placeholder="Seu endereço de email" /></p>
+                <p>Sua senha: <input type="password" name="senha" required="required" placeholder="********"></p>
+        </fieldset><br>
+    </div>
+
+    <fieldset>
+
+        <div>
+            <label>Digite sua idade: <input type="text" name="idade" /></label><br>
+            <label>Sexo: <input type="radio" name="sexo" value="F" />
+
+                <label for="f">Feminino</label>
+                <input type="radio" name="sexo" value="M" />
+                <label for="M">Masculino</label>
+
+        </div>
+
+
+        <div>
+            <p>Marque onde você escuta suas músicas: <br><input type="checkbox" name="musica-serviço" value="spotify" />
+                Spotify
+                <input type="checkbox" name="musica-serviço" value="YouTube Music" />
+                YouTube Music
+                <input type="checkbox" name="musica-serviço" value="SoundCloud" />
+                SoundCloud
+            </p>
+        </div>
+
+        <div>
+            <p><label>Que tipo de programador você é?</label>
+                <select name="programador">
+                    <option value="front-end">Front-end</option>
+                    <option value="back-end">Back-end</option>
+                    <option value="full-stack">Full-stack</option>
+                </select>
+            </p>
+        </div>
+
+        <div>
+            <p> Comentários finais:
+                <label for="comentários">
+                </label> <br>
+                <textarea cols="30" rows="5" id="comentários" placeholder="Digite aqui suas considerações finais">
+
+                </textarea>
+            </p>
+
+        </div>
+
+        <input type="submit" value="Enviar comentário" />
+
+    </fieldset>
+
+</body>
+
+</html>
+</form>
