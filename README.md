@@ -1,11 +1,13 @@
 # html-form
 
-(PT/BR)
+### (PT/BR)
 - Formulário simples feito em HTML aplicando todos os conhecimentos que eu adquiri nele.
 
-(EN/US)
+### (EN/US)
 - Simple form made in HTML applying all the knowledge I acquired in it.
 
-<div>
-  <img scr = "https://github.com/Saturn-Dev/html-form/blob/master/example.PNG"/>
-</div>
+![Final result](https://raw.githubusercontent.com/Saturn-Dev/html-form/master/example.PNG?token=ASZ3OTKNFBPRXDN3JPUNZ7DBDKJFQ)
+
+### Não foi adicionado nenhuma estilização durante a realização do formulário.
+
+
